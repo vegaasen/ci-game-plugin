@@ -1,4 +1,13 @@
+# Distribution-related
 /target
+
+# Log-related
+*.log
+
+# IDE-related
 /.settings
 /.classpath
 /.project
+/.idea
+*.iml
+*.ipr
