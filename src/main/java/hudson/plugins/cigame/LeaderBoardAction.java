@@ -11,6 +11,7 @@ import hudson.Extension;
 import hudson.model.Hudson;
 import hudson.model.RootAction;
 import hudson.model.User;
+import hudson.plugins.cigame.common.UriContext;
 import hudson.security.ACL;
 import hudson.security.AccessControlled;
 import hudson.security.Permission;
@@ -41,7 +42,7 @@ public class LeaderBoardAction implements RootAction, AccessControlled {
     }
 
     public String getUrlName() {
-        return "/cigame"; //$NON-NLS-1$
+        return UriContext.CI_GAME_HOME; //$NON-NLS-1$
     }
 
     /**
