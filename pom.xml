@@ -125,13 +125,13 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.8.2</version>
+            <version>4.11</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>1.8.5</version>
+            <version>1.9.5</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -156,13 +156,6 @@
                     <showDeprecation>true</showDeprecation>
                     <meminitial>512m</meminitial>
                     <maxmem>1024m</maxmem>
-                </configuration>
-            </plugin>
-            <plugin>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5</version>
-                <configuration>
-                    <goals>deploy</goals>
                 </configuration>
             </plugin>
         </plugins>
