@@ -11,12 +11,16 @@
     <artifactId>ci-game</artifactId>
     <version>1.21-SNAPSHOT</version>
 
-    <name>Jenkins Continuous Integration game</name>
+    <name>CI-Game</name>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/The+Continuous+Integration+Game+plugin</url>
 
     <packaging>hpi</packaging>
 
     <repositories>
+        <repository>
+            <id>maven-central</id>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
@@ -139,6 +143,11 @@
             <artifactId>hamcrest-core</artifactId>
             <version>1.2.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.12.1.GA</version>
         </dependency>
     </dependencies>
 

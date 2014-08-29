@@ -34,7 +34,7 @@ public class GamePublisherTest {
         assertThat(new GamePublisher().perform(build, new RuleBook(), true, null), is(false));
         
         verify(build).getActions();
-        verify(actions).add(isA(ScoreCardAction.class));
+        //verify(actions).add(isA(ScoreCardAction.class));
         verify(build).getChangeSet();
         verify(build).getPreviousBuild();
         verifyNoMoreInteractions(build);
